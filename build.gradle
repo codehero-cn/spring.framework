@@ -1,9 +1,10 @@
 apply plugin: 'java'
-apply plugin: 'eclipse'
+
 //ÉèÖÃÎªutf-8±àÂë
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
+
 //sourceCompatibility = 1.5
 //version = '1.0'
 jar {
