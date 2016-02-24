@@ -1,7 +1,7 @@
 /**
  * 
  */
-/**spring的bean配置
+/**集合属性配置细节：list,map.
  * @author eleven
  *
  */

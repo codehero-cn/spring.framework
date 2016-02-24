@@ -19,8 +19,6 @@
 	
 	<!-- 要求在配置Person时，必须有一个关联的car! 换句话说person这个bean依赖于Car这个bean-->
 	<bean id="person" class="cn.codehero.spring.beans.relation.Person"
-		p:name="Tom" p:address-ref="address2" depends-on="car"></bean>
-
-	
-	
+		p:name="Tom" p:address-ref="address2" depends-on="car"></bean>	
+		
 </beans>

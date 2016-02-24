@@ -9,6 +9,10 @@
 	<configs>
 		<config>src/main/java/cn/codehero/spring/beans/spring-beans.xml</config>
 		<config>src/main/java/cn/codehero/spring/beans/annotation/beans-annotation.xml</config>
+		<config>src/main/java/cn/codehero/spring/beans/collections/spring-beans.xml</config>
+		<config>src/main/java/cn/codehero/spring/beans/autowire/beans-autowire.xml</config>
+		<config>src/main/java/cn/codehero/spring/beans/relation/beans-relation.xml</config>
+		<config>src/main/java/cn/codehero/spring/beans/scope/beans-scope.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

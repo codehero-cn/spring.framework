@@ -5,11 +5,11 @@
 	xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
-
+	<!-- 属性注入 -->
 	<bean id="helloWorld" class="cn.codehero.spring.beans.HelloWorld">
 		<property name="name2" value="Spring"></property>
 	</bean>
-<!-- //////////////////////////////////cn.codehero.spring.beans////////////////////////////////////// -->
+
 	<!-- 通过构造器方法来配置 bean的属性 -->
 	<bean id="car1" class="cn.codehero.spring.beans.Car">
 		<constructor-arg value="Audi" index="0"></constructor-arg>
@@ -30,7 +30,7 @@
 		</constructor-arg>
 	</bean>
 
-	
+	<!-- 引入其他bean -->
 	<bean id="person1" class="cn.codehero.spring.beans.Person">
 		<property name="name" value="Tom"></property>
 		<property name="age" value="24"></property>
@@ -39,7 +39,7 @@
 		<!-- 也可以采用下面这种方法 -->
 		<!-- <property name="car">
 			<ref bean="car2"></ref>
-		</property> -->
+			</property> -->
 		<!-- 内部bean -->
 		<!-- <property name="car">-->
 			<!-- <bean class="cn.codehero.spring.beans.Car"> -->

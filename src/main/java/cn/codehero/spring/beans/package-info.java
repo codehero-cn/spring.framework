@@ -1,7 +1,8 @@
 /**
  * 
  */
-/**spring的bean配置
+/**声明bean、构造器注入、属性注入、引用其他bean.
+ * 
  * @author eleven
  *
  */

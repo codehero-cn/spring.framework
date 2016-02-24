@@ -31,14 +31,13 @@ public class Person {
 		
 	}
 	
-	
-	
 	public Person(String name, int age, Car car) {
 		super();
 		this.name = name;
 		this.age = age;
 		this.car = car;
 	}
+	
 	@Override
 	public String toString() {
 		return "PersonList [name=" + name + ", age=" + age + ", car=" + car + "]";
