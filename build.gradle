@@ -8,6 +8,15 @@ repositories {
     mavenCentral()
 }
 
+task myjavadoc(type: Javadoc) {
+	source = sourceSets.main.allJava
+	classpath = project.sourceSets.main.compileClasspath
+    options.encoding = "UTF-8"
+    options.charSet = "UTF-8"
+    options.author = "true"
+    options.showAll()
+ }
+
 dependencies {
     compile 'org.springframework:spring-context:4.2.4.RELEASE'
 }

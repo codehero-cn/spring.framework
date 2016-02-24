@@ -1,7 +1,7 @@
 /**
  * 
  */
-/**
+/**bean的作用域.
  * @author eleven
  *
  */
