@@ -11,19 +11,21 @@ eclipse4.4.2 build使用gradle2.10
 
 ##包结构和功能如下:
 ###1 cn.codehero.spring.beans  声明bean、构造器注入、属性注入、引用其他bean
-源文件---功能---内容  
-Main.java ：本包测试主程序	通用部份  
-src/main/java/config/spring-beans.xml	 	
-HelloWorld.java  	属性注入					51CTO：Spring4.0从入门到精通视频教程:1.Spring_HelloWorld  
-Car.java			构造器注入				51CTO：Spring4.0从入门到精通视频教程:3.Spring_配置Bean  
-Person.java			引用其他bean,内部bean	51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
+配置文件:src/main/java/config/spring-beans.xml	
+|源文件|功能|内容
+|---|---|---|  
+|Main.java ：             |本包测试主程序	通用部份  
+|HelloWorld.java  	|属性注入					|51CTO：Spring4.0从入门到精通视频教程:1.Spring_HelloWorld  
+|Car.java			|构造器注入				    |51CTO：Spring4.0从入门到精通视频教程:3.Spring_配置Bean  
+|Person.java		|	引用其他bean,内部bean	|51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
 
-###2 cn.codehero.spring.beans.collections 集合属性配置细节：list,map  
-源文件---功能---内容  
-Main.java：   		本包测试主程序		51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
-PersonList.java		集合属性List			51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
-PersonMap.java		集合属性Map			51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
-DataSource.java		getProperties使用	51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
+###2 cn.codehero.spring.beans.collections 集合属性配置细节：list,map    
+|源文件|功能|内容
+|---|---|---|  
+|Main.java：   		|本包测试主程序		|51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
+|PersonList.java	|集合属性List		|51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
+|PersonMap.java		|集合属性Map			|51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
+|DataSource.java	|getProperties使用	|51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
                             
 ###3 cn.codehero.spring.beans.autowire 自动装配  
 内容：51CTO：Spring4.0从入门到精通视频教程  5.Spring_自动装配  
