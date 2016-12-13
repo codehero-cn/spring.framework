@@ -1,88 +1,88 @@
-##ÏîÄ¿½éÉÜ:ÊµÑéspring_framework
+##é¡¹ç›®ä»‹ç»:å®éªŒspring_framework
 
-##ÅäÖÃ:
-eclipse4.4.2 buildÊ¹ÓÃgradle2.10
+##é…ç½®:
+eclipse4.4.2 buildä½¿ç”¨gradle2.10
 
-##Ê¹ÓÃ:
-¸÷Ä£¿é°üÀïÕÒµ½Main.javaÎÄ¼ş£¬¶øºóRun As->Java Application,ÔÚConsoleÀï¹Û²ìÊµÑé½á¹û.
+##ä½¿ç”¨:
+å„æ¨¡å—åŒ…é‡Œæ‰¾åˆ°Main.javaæ–‡ä»¶ï¼Œè€ŒåRun As->Java Application,åœ¨Consoleé‡Œè§‚å¯Ÿå®éªŒç»“æœ.
 
-##ÄÚÈİ
-1. 51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì	  ×÷Õß£ºÙ¡¸Õ
+##å†…å®¹
+1. 51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹      ä½œè€…ï¼šä½Ÿåˆš
 
-##°ü½á¹¹ºÍ¹¦ÄÜÈçÏÂ:
-###1 cn.codehero.spring.beans  ÉùÃ÷bean¡¢¹¹ÔìÆ÷×¢Èë¡¢ÊôĞÔ×¢Èë¡¢ÒıÓÃÆäËûbean  
-ÅäÖÃÎÄ¼ş:src/main/java/config/spring-beans.xml
+##åŒ…ç»“æ„å’ŒåŠŸèƒ½å¦‚ä¸‹:
+###1 cn.codehero.spring.beans  å£°æ˜beanã€æ„é€ å™¨æ³¨å…¥ã€å±æ€§æ³¨å…¥ã€å¼•ç”¨å…¶ä»–bean  
+é…ç½®æ–‡ä»¶:src/main/java/config/spring-beans.xml
   
-|Ô´ÎÄ¼ş|¹¦ÄÜ|ÄÚÈİ|
+|æºæ–‡ä»¶|åŠŸèƒ½|å†…å®¹|
 |---|---|---|  
-|Main.java £º              |±¾°ü²âÊÔÖ÷³ÌĞò	Í¨ÓÃ²¿·İ      
-|HelloWorld.java  	|ÊôĞÔ×¢Èë					|51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì:1.Spring_HelloWorld  
-|Car.java			|¹¹ÔìÆ÷×¢Èë				    |51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì:3.Spring_ÅäÖÃBean  
-|Person.java		|	ÒıÓÃÆäËûbean,ÄÚ²¿bean	|51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì:4.Spring_ÊôĞÔÅäÖÃÏ¸½Ú  
+|Main.java ï¼š              |æœ¬åŒ…æµ‹è¯•ä¸»ç¨‹åº  é€šç”¨éƒ¨ä»½      
+|HelloWorld.java    |å±æ€§æ³¨å…¥                   |51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹:1.Spring_HelloWorld  
+|Car.java           |æ„é€ å™¨æ³¨å…¥                  |51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹:3.Spring_é…ç½®Bean  
+|Person.java        |   å¼•ç”¨å…¶ä»–bean,å†…éƒ¨bean |51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹:4.Spring_å±æ€§é…ç½®ç»†èŠ‚  
 
-###2 cn.codehero.spring.beans.collections ¼¯ºÏÊôĞÔÅäÖÃÏ¸½Ú£ºlist,map    
-|Ô´ÎÄ¼ş|¹¦ÄÜ|ÄÚÈİ
+###2 cn.codehero.spring.beans.collections é›†åˆå±æ€§é…ç½®ç»†èŠ‚ï¼šlist,map    
+|æºæ–‡ä»¶|åŠŸèƒ½|å†…å®¹
 |---|---|---|  
-|Main.java   		|±¾°ü²âÊÔÖ÷³ÌĞò		|51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì:4.Spring_ÊôĞÔÅäÖÃÏ¸½Ú  
-|PersonList.java	|¼¯ºÏÊôĞÔList		|51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì:4.Spring_ÊôĞÔÅäÖÃÏ¸½Ú  
-|PersonMap.java		|¼¯ºÏÊôĞÔMap			|51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì:4.Spring_ÊôĞÔÅäÖÃÏ¸½Ú  
-|DataSource.java	|getPropertiesÊ¹ÓÃ	|51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì:4.Spring_ÊôĞÔÅäÖÃÏ¸½Ú  
+|Main.java          |æœ¬åŒ…æµ‹è¯•ä¸»ç¨‹åº        |51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹:4.Spring_å±æ€§é…ç½®ç»†èŠ‚  
+|PersonList.java    |é›†åˆå±æ€§List       |51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹:4.Spring_å±æ€§é…ç½®ç»†èŠ‚  
+|PersonMap.java     |é›†åˆå±æ€§Map            |51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹:4.Spring_å±æ€§é…ç½®ç»†èŠ‚  
+|DataSource.java    |getPropertiesä½¿ç”¨    |51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹:4.Spring_å±æ€§é…ç½®ç»†èŠ‚  
                             
-###3 cn.codehero.spring.beans.autowire ×Ô¶¯×°Åä  
-ÄÚÈİ£º51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì  5.Spring_×Ô¶¯×°Åä  
-Ô´ÎÄ¼ş---¹¦ÄÜ---ÄÚÈİ  
-beans-autowire.xml	ÅäÖÃÎÄ¼ş  	
-Main.java	Ö÷³ÌĞò	
-Address.java ÀàÎÄ¼ş  
+###3 cn.codehero.spring.beans.autowire è‡ªåŠ¨è£…é…  
+å†…å®¹ï¼š51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹  5.Spring_è‡ªåŠ¨è£…é…  
+æºæ–‡ä»¶---åŠŸèƒ½---å†…å®¹  
+beans-autowire.xml  é…ç½®æ–‡ä»¶    
+Main.java   ä¸»ç¨‹åº 
+Address.java ç±»æ–‡ä»¶  
 Car.java  
-Person.java  		
+Person.java         
 
-###4 cn.codehero.spring.beans.relation  beanÅäÖÃÖ®¼äµÄ¹ØÏµ£º¼Ì³ĞºÍÒÀÀµ  
-ÄÚÈİ£º51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì 6.Spring_BeanÖ®¼äµÄ¹ØÏµ  
-Ô´ÎÄ¼ş---¹¦ÄÜ---ÄÚÈİ  
-beans-relation.xml	ÅäÖÃÎÄ¼ş  	
-Main.java			Ö÷³ÌĞò	
-Address.java 		 ÀàÎÄ¼ş	
+###4 cn.codehero.spring.beans.relation  beané…ç½®ä¹‹é—´çš„å…³ç³»ï¼šç»§æ‰¿å’Œä¾èµ–  
+å†…å®¹ï¼š51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹ 6.Spring_Beanä¹‹é—´çš„å…³ç³»  
+æºæ–‡ä»¶---åŠŸèƒ½---å†…å®¹  
+beans-relation.xml  é…ç½®æ–‡ä»¶    
+Main.java           ä¸»ç¨‹åº 
+Address.java         ç±»æ–‡ä»¶    
 Car.java  
-Person.java  	
+Person.java     
 
-###5 cn.codehero.spring.beans.scope  beanµÄ×÷ÓÃÓò  
-ÄÚÈİ£º51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì 7.Spring_BeanµÄ×÷ÓÃÓò  
-Ô´ÎÄ¼ş---¹¦ÄÜ---ÄÚÈİ  
-beans-scope.xml	ÅäÖÃÎÄ¼ş  	
-Main.java	Ö÷³ÌĞò	
-Car.java	ÀàÎÄ¼ş	
+###5 cn.codehero.spring.beans.scope  beançš„ä½œç”¨åŸŸ  
+å†…å®¹ï¼š51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹ 7.Spring_Beançš„ä½œç”¨åŸŸ  
+æºæ–‡ä»¶---åŠŸèƒ½---å†…å®¹  
+beans-scope.xml é…ç½®æ–‡ä»¶    
+Main.java   ä¸»ç¨‹åº 
+Car.java    ç±»æ–‡ä»¶ 
 
-###6 cn.codehero.spring.beans.properties Ê¹ÓÃÍâ²¿ÊôĞÔÎÄ¼şc3p0Á¬½ÓÊı¾İ¿â  
-ÄÚÈİ£º51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì 8.Spring_Ê¹ÓÃÍâ²¿ÊôĞÔÎÄ¼ş  
-Ô´ÎÄ¼ş---¹¦ÄÜ---ÄÚÈİ  
-beans-properties.xml	ÅäÖÃÎÄ¼ş  	
-Main.java	  			Ö÷³ÌĞò	
-db.properties			Íâ²¿ÊôĞÔÎÄ¼ş  	
+###6 cn.codehero.spring.beans.properties ä½¿ç”¨å¤–éƒ¨å±æ€§æ–‡ä»¶c3p0è¿æ¥æ•°æ®åº“  
+å†…å®¹ï¼š51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹ 8.Spring_ä½¿ç”¨å¤–éƒ¨å±æ€§æ–‡ä»¶  
+æºæ–‡ä»¶---åŠŸèƒ½---å†…å®¹  
+beans-properties.xml    é…ç½®æ–‡ä»¶    
+Main.java               ä¸»ç¨‹åº 
+db.properties           å¤–éƒ¨å±æ€§æ–‡ä»¶      
 
-###7 cn.codehero.spring.beans.spel  spelµÄÓÃ·¨  
-ÄÚÈİ£º51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì 9.Spring_SpEL  
-Ô´ÎÄ¼ş---¹¦ÄÜ---ÄÚÈİ  
-beans-spel.xml	ÅäÖÃÎÄ¼ş  	
-Main.java	        Ö÷³ÌĞò	
-Address.java    ÀàÎÄ¼ş  
+###7 cn.codehero.spring.beans.spel  spelçš„ç”¨æ³•  
+å†…å®¹ï¼š51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹ 9.Spring_SpEL  
+æºæ–‡ä»¶---åŠŸèƒ½---å†…å®¹  
+beans-spel.xml  é…ç½®æ–‡ä»¶    
+Main.java           ä¸»ç¨‹åº 
+Address.java    ç±»æ–‡ä»¶  
 Car.java  
-Person.java  		
+Person.java         
 
-###8 cn.codehero.spring.beans.cycle  beanµÄÉúÃüÖÜÆÚ  
-ÄÚÈİ£º51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì 10.Spring_¹ÜÀíBeanµÄÉúÃüÖÜÆÚ  
-Ô´ÎÄ¼ş---¹¦ÄÜ---ÄÚÈİ  
-beans-cycle.xml  ÅäÖÃÎÄ¼ş  
-Main.java        Ö÷³ÌĞò  
-Car.java         ÀàÎÄ¼ş  
+###8 cn.codehero.spring.beans.cycle  beançš„ç”Ÿå‘½å‘¨æœŸ  
+å†…å®¹ï¼š51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹ 10.Spring_ç®¡ç†Beançš„ç”Ÿå‘½å‘¨æœŸ  
+æºæ–‡ä»¶---åŠŸèƒ½---å†…å®¹  
+beans-cycle.xml  é…ç½®æ–‡ä»¶  
+Main.java        ä¸»ç¨‹åº  
+Car.java         ç±»æ–‡ä»¶  
 MybeanPostProcessor.java  
 
-###9 cn.codehero.spring.beans.factory  Í¨¹ı¹¤³§·½·¨ÅäÖÃbean    
-ÄÚÈİ£º51CTO£ºSpring4.0´ÓÈëÃÅµ½¾«Í¨ÊÓÆµ½Ì³Ì 11.Spring_Í¨¹ı¹¤³§·½·¨ÅäÖÃBean  
-Ô´ÎÄ¼ş---¹¦ÄÜ---ÄÚÈİ  
-beans-factory.xml          ÅäÖÃÎÄ¼ş  
-Main.java                  Ö÷³ÌĞò  
-Car.java                   ÀàÎÄ¼ş  
+###9 cn.codehero.spring.beans.factory  é€šè¿‡å·¥å‚æ–¹æ³•é…ç½®bean    
+å†…å®¹ï¼š51CTOï¼šSpring4.0ä»å…¥é—¨åˆ°ç²¾é€šè§†é¢‘æ•™ç¨‹ 11.Spring_é€šè¿‡å·¥å‚æ–¹æ³•é…ç½®Bean  
+æºæ–‡ä»¶---åŠŸèƒ½---å†…å®¹  
+beans-factory.xml          é…ç½®æ–‡ä»¶  
+Main.java                  ä¸»ç¨‹åº  
+Car.java                   ç±»æ–‡ä»¶  
 InstanceCarFactory.java  
 StaticCarFactory.java  
 
