@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.Map;
 
 import cn.codehero.spring.beans.Car;
-
+/**
+ * 集合属性Map,51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
+ */
 public class PersonMap {
 	private String name;
 	private int age;	

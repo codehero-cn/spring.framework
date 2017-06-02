@@ -4,7 +4,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 import cn.codehero.spring.beans.Person;
-/**测试主程序.
+/**测试主程序,51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节
  * @author eleven
  *
  */

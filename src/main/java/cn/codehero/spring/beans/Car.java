@@ -1,5 +1,9 @@
 package cn.codehero.spring.beans;
-
+/**
+ * 构造器注入                  |51CTO：Spring4.0从入门到精通视频教程:3.Spring_配置Bean 
+ * @author eleven
+ *
+ */
 public class Car {
 	private String brand;
 	private String crop;

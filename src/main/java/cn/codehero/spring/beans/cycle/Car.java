@@ -1,5 +1,9 @@
 package cn.codehero.spring.beans.cycle;
-
+/**
+ *  类文件
+ * @author eleven
+ *
+ */
 public class Car {
 	
 	public Car(){

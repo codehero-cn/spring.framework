@@ -1,5 +1,9 @@
 package cn.codehero.spring.beans;
-
+/**
+ * |   引用其他bean,内部bean |51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节
+ * @author eleven
+ *
+ */
 public class Person {
 	private String name;
 	private int age;	

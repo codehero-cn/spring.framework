@@ -1,5 +1,9 @@
 package cn.codehero.spring.beans.spel;
-
+/**
+ *   类文件  
+ * @author eleven
+ *
+ */
 public class Address {
 	
 	private String city;

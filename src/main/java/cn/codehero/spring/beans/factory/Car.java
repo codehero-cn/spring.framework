@@ -1,5 +1,9 @@
 package cn.codehero.spring.beans.factory;
-
+/**
+ * 类文件  
+ * @author eleven
+ *
+ */
 public class Car {
 
 	private String brand;

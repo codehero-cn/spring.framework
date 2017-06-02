@@ -1,9 +1,10 @@
 package cn.codehero.spring.beans.collections;
-
 import java.util.List;
 
 import cn.codehero.spring.beans.Car;
-
+/**
+ * 集合属性List,       51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
+ */
 public class PersonList {
 	private String name;
 	private int age;	
