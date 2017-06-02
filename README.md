@@ -1,10 +1,11 @@
-##项目介绍:实验spring_framework
+##项目介绍:spring框架的使用framework
 
 ##配置:
-eclipse4.4.2 build使用gradle2.10
+eclipse4.4.2 build使用gradle
 
 ##使用:
 各模块包里找到Main.java文件，而后Run As->Java Application,在Console里观察实验结果.
+文档查看javadoc
 
 ##内容
 1. 51CTO：Spring4.0从入门到精通视频教程      作者：佟刚
@@ -15,8 +16,7 @@ eclipse4.4.2 build使用gradle2.10
   
 |源文件|功能|内容|
 |---|---|---|  
-|Main.java ：              |本包测试主程序  通用部份      
-|HelloWorld.java    |属性注入                   |51CTO：Spring4.0从入门到精通视频教程:1.Spring_HelloWorld  
+|HelloWorld.java    |
 |Car.java           |构造器注入                  |51CTO：Spring4.0从入门到精通视频教程:3.Spring_配置Bean  
 |Person.java        |   引用其他bean,内部bean |51CTO：Spring4.0从入门到精通视频教程:4.Spring_属性配置细节  
 
