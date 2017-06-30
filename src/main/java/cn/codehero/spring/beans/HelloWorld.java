@@ -1,6 +1,6 @@
 package cn.codehero.spring.beans;
 /**
- * 属性注入       内容:51CTO：Spring4.0从入门到精通视频教程:1.Spring_HelloWorld  
+ * 属性注入        
  */
 public class HelloWorld {
 	private String name;
