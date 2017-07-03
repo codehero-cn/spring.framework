@@ -1,9 +1,9 @@
-package cn.codehero.spring.beans;
+package cn.codehero.spring.beans.util;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
- * 工具类把ApplicationContext做成一个单例的
+ * 工具类把ApplicationContext做成一个单例
  * @author eleven
  *
  */

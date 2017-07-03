@@ -2,6 +2,8 @@ package cn.codehero.spring.beans;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import cn.codehero.spring.beans.util.ApplicationContextUtil;
 /**测试主程序.
  * @author eleven
  */
