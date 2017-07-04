@@ -1,7 +1,7 @@
 package cn.codehero.spring.beans.inter;
 
 /**
- * 把大写字母->小写
+ * 把大写字母--》小写
  * @author eleven
  *
  */

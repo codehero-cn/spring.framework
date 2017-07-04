@@ -10,25 +10,21 @@ import cn.codehero.spring.beans.util.ApplicationContextUtil;
 
 public class Main {
 	public static void  main(String[] args){
-	//1.创建Spring的IOC容器对象		
-	ApplicationContext ac = ApplicationContextUtil.getApplicstionContext();	
-	//ApplicationContext ac = new ClassPathXmlApplicationContext("/cn/codehero/spring/beans/applicationContext.xml");   
-	//文件路径下时用这个
-	//ApplicationContext ac = new FileSystemXmlApplicationContext("/src/main/java/cn/codehero/spring/beans/applicationContext.xml"); 
-	
-	//2.从ICO容器中获取Bean实例
+	//1.创建Spring的IOC容器对象
+	String acXmlPath = "cn/codehero/spring/beans/inter/applicationContext.xml";
+	ApplicationContext ac = ApplicationContextUtil.getApplicstionContext(acXmlPath);	
+		
+	//2.从ICO容器中获取Bean:HelloWorld实例
 	//利用类型返回IOC容器中的Bean,但要求ICO容器中必须只能有一个 该类型的Bean,有重复名字时会报错，不常用   
-	//HelloWorld helloWorld = ctx.getBean(HelloWorld.class); 	
+	//HelloWorld helloWorld = ac.getBean(HelloWorld.class); 	
 	
-	//利用id定位到IOC容器中的bean   
+	//利用id定位到IOC容器中的bean：helloworld   
 	System.out.println("以下是HelloWorld实验");
 	HelloWorld helloworld = (HelloWorld) ac.getBean("hello_id");	
-	System.out.println(helloworld);  //可以看到打印出来的是一个对象 	
-	
-	//3.调用hello方法 
+	//调用hello方法 
 	helloworld.hello();	
 	System.out.println("");
-	
+
 	System.out.println("以下是Car类bean实验");	
 	Car car = (Car) ac.getBean("car1");
 	System.out.println(car);
