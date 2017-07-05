@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+	<!-- test case测试用例 -->
+	<bean id="car1" class="cn.codehero.spring.beans.collections.Car">
+        <property name="brand"  value="Ford1"></property>
+    </bean> 
+	<bean id="car2" class="cn.codehero.spring.beans.collections.Car">
+        <property name="brand"  value="Ford2"></property>
+     </bean>     
+	
+	<bean id="personList" class="cn.codehero.spring.beans.collections.Person">
+		<!-- 给数组注入 -->
+		<property name="hobby">
+		   <list>
+		      <value>运动</value>
+		      <value>读书</value>
+		   </list>
+		</property>
+		
+		<!--给list注入bean  -->
+		<property name="carsList">
+			<!-- 使用list节点为List类型的属性赋值 -->
+			<list>
+				<ref bean="car1"/>
+				<ref bean="car2"/>				
+			</list>
+		</property>	
+		
+	    <!-- 给Set注入-->
+        <property name="carsSet">
+            <!-- 使用Set 节点及Set 的entry子节点配置Set 类型的成员变量 -->
+            <set>
+                <ref bean="car1"></ref>
+                <ref bean="car2"></ref>
+            </set>
+        </property>
+        
+        <!-- 给Map注入 -->
+        <property name="carsMap">
+            <!-- 使用map 节点及map 的entry子节点配置Map 类型的成员变量 -->
+            <map>
+                <entry key="key1" value-ref="car1"></entry>
+                <entry key="key2" value-ref="car2"></entry>           
+            </map>
+        </property>
+	</bean>
+	
+	<!-- 配置Properties属性值:模拟-->
+	<bean id="dataSource" class="cn.codehero.spring.beans.collections.DataSource">
+		<property name="properties">
+			<!-- 使用props和prop子节点来为Properties属性赋值 -->
+			<props>
+				<prop key="user">root</prop>
+				<prop key="passoword">123456</prop>
+				<prop key="jdbcUrl">jdbc:mysql:///test</prop>
+				<prop key="driverClass">com.mysql.jdbc.Driver</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<!-- 配置单例的集合bean,以供多个bean进行引用 ,需要导入util命名空间 :实验没完全成功，有报错-->
+	<util:list id="carsUtil" value-type="cn.codehero.spring.beans.collections.Car">
+		<ref bean="car1"/>
+		<ref bean="car2"/>
+	</util:list>
+	
+	<bean id="personList2" class="cn.codehero.spring.beans.collections.Person">
+		<property name="name" value="Jack"></property>
+		<property name="age" value="29"></property>
+		<property name="carsList" ref="carsUtil"></property>
+	</bean>
+	
+	<!-- 通过p命名空间为bean的属性赋值，需要导入p命名空间 ,相对于传统的配置方式更加的简洁 ：还没实验-->
+	<bean id="personp" class="cn.codehero.spring.beans.collections.Person" p:age="30" p:name="Queen" p:carsList-ref="carsUtil">	</bean>
+</beans>
+
