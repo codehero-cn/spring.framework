@@ -1,4 +1,6 @@
-##项目介绍:spring-framework框架的使用
+##项目介绍:
+spring-framework框架的使用
+能用注解的地方尽量用注解，不能的地方尽量用java配置，最后才用xml
 
 ##开发环境:
 eclipse4.6.3 build使用gradle
