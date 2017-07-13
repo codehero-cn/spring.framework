@@ -1,5 +1,12 @@
 package cn.codehero.spring.beans.autowire;
 
+import javax.inject.Named;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+@Named("person")
 public class Person {
 	
 	private String name;
@@ -15,19 +22,19 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 	public Address getAddress() {
 		return address;
 	}
-
+	@Autowired
 	public void setAddress(Address address) {
 		this.address = address;
 	}
-
+	
 	public Car getCar() {
 		return car;
 	}
-
+	@Autowired
 	public void setCar(Car car) {
 		this.car = car;
 	}

@@ -1,11 +1,14 @@
 package cn.codehero.spring.beans.autowire;
 
+import org.springframework.stereotype.Component;
+
 /**
  * 类文件
  * 
  * @author eleven
  *
  */
+@Component
 public class Address {
 
 	private String city;

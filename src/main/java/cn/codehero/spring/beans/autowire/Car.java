@@ -1,7 +1,9 @@
 package cn.codehero.spring.beans.autowire;
 
-import org.springframework.stereotype.Component;
+import javax.inject.Named;
 
+import org.springframework.stereotype.Component;
+@Named("car")
 @Component
 public class Car {
 
