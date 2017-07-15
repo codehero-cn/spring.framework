@@ -11,15 +11,14 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration(classes=Config.class)
 public class MainTest {
 	@Inject Person person;
-	@Inject Car car;
+	//@Inject Ford ford;
+	@Inject Haval haval;
 	@Test
 	public void test(){
 		System.out.println("hello");
-		
-		System.out.println(car);
+		//ford.setBrand("ford");
+		haval.setBrand("haval");
 		System.out.println(person);
 		
 	}
-	
-	
 }
